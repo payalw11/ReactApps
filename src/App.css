@@ -36,10 +36,34 @@
 
 .meme{
  float: left;
- width: 20%;
- height: 20% 
+ margin-left: 40%;
+ width: 200px;
+ height: 200px; 
+ position: relative;
+ top: 10px;
 }
 
+.photo{
+width:100%;
+position: absolute;
+top: 10px;
+left: 0;
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 0;
+  text-emphasis: center;
+  width:100%;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 0;
+  width:100%;
+  text-emphasis: center;
+}
 
 .App-link {
   color: #61dafb;
